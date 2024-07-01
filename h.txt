@@ -1,0 +1,24 @@
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc2NjI4NDA0MWY4NmYxNDBlOTZmYjciLCJpYXQiOjE3MTkwNDA5NDgsImV4cCI6MTcxOTY0NTc0OH0.mHn6BHweIUUa-7wkJb2D99B52lg_q3A32Iglk7phe34
+
+
+
+
+
+
+
+
+
+http://localhost:8080/api/v1/inventory/create-inventory
+
+
+
+
+
+{
+    "inventoryType":"in",
+    "bloodGroup":"O+",
+    "quantity": 20,
+    "email": "a@gmail.com",
+    "donor":"66766284041f86f140e96fb7",
+    "organisation":"66767e526aa5a538a23d4b0b"
+}
