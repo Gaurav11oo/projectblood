@@ -36,8 +36,6 @@
 
 ### ● Folder Structure
 
-### ● Contrubution
-
 ### ● Contacts
 
 # #Features :-
