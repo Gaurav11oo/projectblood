@@ -15,6 +15,29 @@ dotenv.config();
 //mongodb connection
 connectDB();
 
+//mongodb
+const mongoURI = "mongodb+srv://project12024:project2024@cluster1.qnt3tf5.mongodb.net/";
+
+try {
+  mongoose
+    .connect(mongoURI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
+    .then(() => {
+      console.log("Connected to MongoDB");
+      app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+    })
+    .catch((err) => {
+      console.error("Could not connect to MongoDB:", err)
+      process.exit(1)
+    });
+
+} catch (err) {
+  console.log("Error : " + err.message)
+}
+
+
 //rest object
 const app = express();
 
