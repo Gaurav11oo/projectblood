@@ -251,7 +251,7 @@ blood-bank-management-system/
 
 # # To Contact Us :-
 
-### ● GitHub : [Sanskriti Dwivedi](https://github.com//)
+### ● GitHub : [Sanskriti Dwivedi](https://github.com/sanskkriti30)
 
 ### ● GitHub : [Om Chaturvedi](https://github.com/Krishna1604)
 
